@@ -57,7 +57,7 @@ export class VerificamexService {
       body: JSON.stringify({
         validations: ["INE"],
         redirect_url: "https://talent.towasoftware.com/",
-        webhook: "https://tu-api.com/webhooks/verificamex",
+        webhook: "https://towa-api-570539888272.us-central1.run.app/verificamex/webhook",
       })
     })
 
